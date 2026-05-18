@@ -4,3 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+image = "0.25"
+show-image = "0.14"
+
+[profile.release]
+opt-level = "z"     # Optimize for size
+lto = true          # Enable Link-Time Optimization
+codegen-units = 1   # Maximize size reduction
+panic = "abort"     # Remove panic unwinding (saves size)
+strip = true        # Strip debug symbols
