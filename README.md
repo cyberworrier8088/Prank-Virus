@@ -9,8 +9,14 @@ i am just learning rust so code might be simple but it works very good. if you w
 https://github.com/cyberworrier8088/Prank-Virus.git
 
 how to run from code:
-if you have rust installed on your computer you can just open terminal in the folder and type:
+if you have rust installed on your computer you can just open terminal and copy this to download and run it:
+
+```bash
+git clone https://github.com/cyberworrier8088/Prank-Virus.git
+cd Prank-Virus
 cargo run
+```
+
 it will build and start the virus.
 
 how to use without compiling:
