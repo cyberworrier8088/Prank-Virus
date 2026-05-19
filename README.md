@@ -25,4 +25,4 @@ https://github.com/cyberworrier8088/Prank-Virus/releases/download/Demo-exe/Prank
 
 just dubble click the exe file when your freind is not looking and run away. they will think there computer is hacked and system 32 is deleted but its totally fake. 
 
-thanks for looking at my first poject!
+thanks for looking at my poject!
