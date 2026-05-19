@@ -11,6 +11,7 @@ jobs:
     name: Build on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - os: ubuntu-latest
@@ -19,9 +20,6 @@ jobs:
           - os: windows-latest
             artifact_name: Prank-Virus-Windows
             bin_path: target/release/Prank-Virus.exe
-          - os: macos-latest
-            artifact_name: Prank-Virus-Mac
-            bin_path: target/release/Prank-Virus
 
     steps:
     - name: Checkout Code
